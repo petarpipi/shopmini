@@ -1,0 +1,610 @@
+{
+  "measuredOn": "2026-10-26",
+  "tool": "Playwright 1.64 + Microsoft Edge, production preview on 127.0.0.1:4185",
+  "profiles": {
+    "desktop-1440-unthrottled": "1440x900, no throttling",
+    "mobile-375-4xCPU-slow4G": "375x812, DPR 2, 4x CPU slowdown, ~1.6 Mbps down, 150 ms latency"
+  },
+  "note": "Three consecutive runs on a busy local machine; timings varied widely between runs and are not field data or Lighthouse scores. CLS is the most stable signal.",
+  "median": [
+    {
+      "profile": "desktop-1440-unthrottled",
+      "route": "/",
+      "fcpMs": 1456,
+      "lcpMs": 1524,
+      "clsMax": 0.0016,
+      "transferKB": 511,
+      "fcpRangeMs": [
+        696,
+        1484
+      ]
+    },
+    {
+      "profile": "desktop-1440-unthrottled",
+      "route": "/shop",
+      "fcpMs": 336,
+      "lcpMs": 808,
+      "clsMax": 0.0002,
+      "transferKB": 402,
+      "fcpRangeMs": [
+        296,
+        476
+      ]
+    },
+    {
+      "profile": "desktop-1440-unthrottled",
+      "route": "/product/daily-glow-serum",
+      "fcpMs": 476,
+      "lcpMs": 1312,
+      "clsMax": 0.0002,
+      "transferKB": 336,
+      "fcpRangeMs": [
+        416,
+        492
+      ]
+    },
+    {
+      "profile": "desktop-1440-unthrottled",
+      "route": "/cart",
+      "fcpMs": 476,
+      "lcpMs": 696,
+      "clsMax": 0.0002,
+      "transferKB": 178,
+      "fcpRangeMs": [
+        276,
+        584
+      ]
+    },
+    {
+      "profile": "desktop-1440-unthrottled",
+      "route": "/checkout",
+      "fcpMs": 496,
+      "lcpMs": 728,
+      "clsMax": 0.0015,
+      "transferKB": 181,
+      "fcpRangeMs": [
+        324,
+        3224
+      ]
+    },
+    {
+      "profile": "mobile-375-4xCPU-slow4G",
+      "route": "/",
+      "fcpMs": 2448,
+      "lcpMs": 2612,
+      "clsMax": 0.0053,
+      "transferKB": 380,
+      "fcpRangeMs": [
+        2020,
+        3392
+      ]
+    },
+    {
+      "profile": "mobile-375-4xCPU-slow4G",
+      "route": "/shop",
+      "fcpMs": 1640,
+      "lcpMs": 2240,
+      "clsMax": 0.0033,
+      "transferKB": 402,
+      "fcpRangeMs": [
+        1540,
+        1648
+      ]
+    },
+    {
+      "profile": "mobile-375-4xCPU-slow4G",
+      "route": "/product/daily-glow-serum",
+      "fcpMs": 1500,
+      "lcpMs": 2648,
+      "clsMax": 0.0546,
+      "transferKB": 336,
+      "fcpRangeMs": [
+        1376,
+        3996
+      ]
+    },
+    {
+      "profile": "mobile-375-4xCPU-slow4G",
+      "route": "/cart",
+      "fcpMs": 1604,
+      "lcpMs": 1924,
+      "clsMax": 0.0026,
+      "transferKB": 178,
+      "fcpRangeMs": [
+        1540,
+        2432
+      ]
+    },
+    {
+      "profile": "mobile-375-4xCPU-slow4G",
+      "route": "/checkout",
+      "fcpMs": 1544,
+      "lcpMs": 1760,
+      "clsMax": 0.0027,
+      "transferKB": 181,
+      "fcpRangeMs": [
+        1504,
+        1660
+      ]
+    }
+  ],
+  "runs": [
+    [
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/",
+        "fcp": 1484,
+        "lcp": 1536,
+        "lcpEl": "IMG hero.webp",
+        "cls": 0.0016,
+        "transferKB": 511,
+        "imgs": [
+          "hero.webp",
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "hero-800.webp",
+          "quiet-night-serum-480.webp",
+          "linen-hand-cream-480.webp",
+          "velvet-night-cream-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/shop",
+        "fcp": 336,
+        "lcp": 652,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 402,
+        "imgs": [
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "soft-foam-cleanser-480.webp",
+          "evening-cleansing-oil-480.webp",
+          "quiet-night-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "dew-drop-serum-480.webp",
+          "cloud-light-moisturizer-480.webp",
+          "linen-hand-cream-480.webp",
+          "stillness-body-oil-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/product/daily-glow-serum",
+        "fcp": 416,
+        "lcp": 1284,
+        "lcpEl": "IMG serum.webp",
+        "cls": 0.0002,
+        "transferKB": 336,
+        "imgs": [
+          "serum.webp",
+          "serum-480.webp",
+          "cleanser-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/cart",
+        "fcp": 584,
+        "lcp": 816,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 178,
+        "imgs": []
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/checkout",
+        "fcp": 324,
+        "lcp": 576,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 181,
+        "imgs": []
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/",
+        "fcp": 2448,
+        "lcp": 2612,
+        "lcpEl": "IMG hero-800.webp",
+        "cls": 0.0053,
+        "transferKB": 380,
+        "imgs": [
+          "hero-800.webp",
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "quiet-night-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "linen-hand-cream-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/shop",
+        "fcp": 1648,
+        "lcp": 2496,
+        "lcpEl": "H1 ",
+        "cls": 0.0012,
+        "transferKB": 402,
+        "imgs": [
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "soft-foam-cleanser-480.webp",
+          "evening-cleansing-oil-480.webp",
+          "quiet-night-serum-480.webp",
+          "dew-drop-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "cloud-light-moisturizer-480.webp",
+          "linen-hand-cream-480.webp",
+          "stillness-body-oil-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/product/daily-glow-serum",
+        "fcp": 1500,
+        "lcp": 2648,
+        "lcpEl": "IMG serum.webp",
+        "cls": 0.0003,
+        "transferKB": 336,
+        "imgs": [
+          "serum.webp",
+          "serum-480.webp",
+          "cleanser-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/cart",
+        "fcp": 1604,
+        "lcp": 1788,
+        "lcpEl": "H1 ",
+        "cls": 0.0024,
+        "transferKB": 178,
+        "imgs": []
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/checkout",
+        "fcp": 1504,
+        "lcp": 1704,
+        "lcpEl": "H1 ",
+        "cls": 0.0024,
+        "transferKB": 181,
+        "imgs": []
+      }
+    ],
+    [
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/",
+        "fcp": 696,
+        "lcp": 764,
+        "lcpEl": "IMG hero.webp",
+        "cls": 0.0016,
+        "transferKB": 511,
+        "imgs": [
+          "hero.webp",
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "hero-800.webp",
+          "quiet-night-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "linen-hand-cream-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/shop",
+        "fcp": 296,
+        "lcp": 928,
+        "lcpEl": "IMG moisturizer-480.webp",
+        "cls": 0.0002,
+        "transferKB": 402,
+        "imgs": [
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "soft-foam-cleanser-480.webp",
+          "evening-cleansing-oil-480.webp",
+          "quiet-night-serum-480.webp",
+          "dew-drop-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "cloud-light-moisturizer-480.webp",
+          "linen-hand-cream-480.webp",
+          "stillness-body-oil-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/product/daily-glow-serum",
+        "fcp": 492,
+        "lcp": 1312,
+        "lcpEl": "IMG serum.webp",
+        "cls": 0.0002,
+        "transferKB": 336,
+        "imgs": [
+          "serum.webp",
+          "serum-480.webp",
+          "cleanser-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/cart",
+        "fcp": 276,
+        "lcp": 576,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 178,
+        "imgs": []
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/checkout",
+        "fcp": 496,
+        "lcp": 728,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 181,
+        "imgs": []
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/",
+        "fcp": 3392,
+        "lcp": 4508,
+        "lcpEl": "IMG hero-800.webp",
+        "cls": 0.0005,
+        "transferKB": 380,
+        "imgs": [
+          "hero-800.webp",
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "quiet-night-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "linen-hand-cream-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/shop",
+        "fcp": 1540,
+        "lcp": 2108,
+        "lcpEl": "H1 ",
+        "cls": 0.0029,
+        "transferKB": 402,
+        "imgs": [
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "soft-foam-cleanser-480.webp",
+          "evening-cleansing-oil-480.webp",
+          "quiet-night-serum-480.webp",
+          "dew-drop-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "cloud-light-moisturizer-480.webp",
+          "linen-hand-cream-480.webp",
+          "stillness-body-oil-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/product/daily-glow-serum",
+        "fcp": 1376,
+        "lcp": 2524,
+        "lcpEl": "IMG serum.webp",
+        "cls": 0.0003,
+        "transferKB": 336,
+        "imgs": [
+          "serum.webp",
+          "serum-480.webp",
+          "cleanser-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/cart",
+        "fcp": 2432,
+        "lcp": 2632,
+        "lcpEl": "H1 ",
+        "cls": 0.0026,
+        "transferKB": 178,
+        "imgs": []
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/checkout",
+        "fcp": 1660,
+        "lcp": 1760,
+        "lcpEl": "H1 ",
+        "cls": 0.0024,
+        "transferKB": 181,
+        "imgs": []
+      }
+    ],
+    [
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/",
+        "fcp": 1456,
+        "lcp": 1524,
+        "lcpEl": "IMG hero.webp",
+        "cls": 0.0016,
+        "transferKB": 511,
+        "imgs": [
+          "hero.webp",
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "hero-800.webp",
+          "quiet-night-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "linen-hand-cream-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/shop",
+        "fcp": 476,
+        "lcp": 808,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 402,
+        "imgs": [
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "soft-foam-cleanser-480.webp",
+          "evening-cleansing-oil-480.webp",
+          "quiet-night-serum-480.webp",
+          "dew-drop-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "cloud-light-moisturizer-480.webp",
+          "linen-hand-cream-480.webp",
+          "stillness-body-oil-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/product/daily-glow-serum",
+        "fcp": 476,
+        "lcp": 1376,
+        "lcpEl": "IMG serum.webp",
+        "cls": 0.0002,
+        "transferKB": 336,
+        "imgs": [
+          "serum.webp",
+          "serum-480.webp",
+          "cleanser-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp"
+        ]
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/cart",
+        "fcp": 476,
+        "lcp": 696,
+        "lcpEl": "H1 ",
+        "cls": 0.0002,
+        "transferKB": 178,
+        "imgs": []
+      },
+      {
+        "profile": "desktop-1440-unthrottled",
+        "route": "/checkout",
+        "fcp": 3224,
+        "lcp": 3708,
+        "lcpEl": "H1 ",
+        "cls": 0.0015,
+        "transferKB": 181,
+        "imgs": []
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/",
+        "fcp": 2020,
+        "lcp": 2120,
+        "lcpEl": "IMG hero-800.webp",
+        "cls": 0.0053,
+        "transferKB": 380,
+        "imgs": [
+          "hero-800.webp",
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "quiet-night-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "linen-hand-cream-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/shop",
+        "fcp": 1640,
+        "lcp": 2240,
+        "lcpEl": "H1 ",
+        "cls": 0.0033,
+        "transferKB": 402,
+        "imgs": [
+          "cleanser-480.webp",
+          "serum-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp",
+          "soft-foam-cleanser-480.webp",
+          "evening-cleansing-oil-480.webp",
+          "quiet-night-serum-480.webp",
+          "dew-drop-serum-480.webp",
+          "velvet-night-cream-480.webp",
+          "cloud-light-moisturizer-480.webp",
+          "linen-hand-cream-480.webp",
+          "stillness-body-oil-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/product/daily-glow-serum",
+        "fcp": 3996,
+        "lcp": 3996,
+        "lcpEl": "SPAN ",
+        "cls": 0.0546,
+        "transferKB": 336,
+        "imgs": [
+          "serum.webp",
+          "serum-480.webp",
+          "cleanser-480.webp",
+          "moisturizer-480.webp",
+          "body-480.webp"
+        ]
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/cart",
+        "fcp": 1540,
+        "lcp": 1924,
+        "lcpEl": "H1 ",
+        "cls": 0.0024,
+        "transferKB": 178,
+        "imgs": []
+      },
+      {
+        "profile": "mobile-375-4xCPU-slow4G",
+        "route": "/checkout",
+        "fcp": 1544,
+        "lcp": 1764,
+        "lcpEl": "H1 ",
+        "cls": 0.0027,
+        "transferKB": 181,
+        "imgs": []
+      }
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "date":  "2026-10-26",
+    "typecheck":  {
+                      "command":  "tsc -b --force",
+                      "exitCode":  0
+                  },
+    "build":  {
+                  "command":  "vite build",
+                  "exitCode":  0
+              },
+    "unit":  {
+                 "passed":  50,
+                 "failed":  0,
+                 "skipped":  0,
+                 "suites":  11,
+                 "success":  true
+             },
+    "e2e":  {
+                "startTime":  "2026-10-26T21:53:00.600Z",
+                "duration":  1197498.159,
+                "expected":  41,
+                "skipped":  0,
+                "unexpected":  2,
+                "flaky":  0
+            },
+    "dependencyAudit":  {
+                            "command":  "pnpm audit",
+                            "result":  "No known vulnerabilities found"
+                        },
+    "e2eTargetedRetry":  {
+                             "startTime":  "2026-10-26T22:13:43.636Z",
+                             "duration":  34956.492000000006,
+                             "expected":  2,
+                             "skipped":  0,
+                             "unexpected":  0,
+                             "flaky":  0
+                         },
+    "e2eEarlierFullRun":  {
+                              "date":  "2026-10-26T21:20Z",
+                              "expected":  43,
+                              "unexpected":  0,
+                              "skipped":  0,
+                              "flaky":  0,
+                              "note":  "Same suite one CSS selector change earlier (.contact-note specificity); duration 5.9 min"
+                          },
+    "note":  "The final full run (e2e) took 20 min while CPU was at 100% from unrelated applications; two tests timed out waiting for a page heading (5 s) or the 90 s test budget. Both passed on the targeted repeat (e2eTargetedRetry). This is not a claim that the final full run had zero failures."
+}

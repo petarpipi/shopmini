@@ -1,0 +1,80 @@
+{
+  "source": "AI-generated source artwork; optimized runtime assets are included in public/images",
+  "files": {
+    "hero": "exec-6c197e6c-bfa8-470e-a32d-a4bfabb7f472.png",
+    "cleanser": "exec-393b73ca-6853-4c1e-a450-9a85e8a024f5.png",
+    "serum": "exec-a25f972a-58f7-4e83-b2f6-0da28b1898d3.png",
+    "moisturizer": "exec-80b9763d-b3bb-4c56-b5f6-1435dd443f23.png",
+    "body": "exec-6b7d66f2-e0d5-47f3-a3fd-9e207e7d709a.png",
+    "soft-foam-cleanser": "exec-2f4d19ae-9990-499d-9aba-022428482883.png",
+    "evening-cleansing-oil": "exec-ea0c1831-d697-41dd-9a45-f8f2b6fd0781.png",
+    "quiet-night-serum": "exec-4037373c-148b-46cc-b313-68fd6567edb5.png",
+    "dew-drop-serum": "exec-6e9bcf41-792f-4726-927d-1cf1c771eca5.png",
+    "velvet-night-cream": "exec-8faf97cd-6021-4bf5-998e-abc61e0b5e5c.png",
+    "cloud-light-moisturizer": "exec-f88239d9-4513-43ef-b03b-759ef502371b.png",
+    "linen-hand-cream": "exec-5e1065e5-0401-42f8-ab89-525b7b705cc7.png",
+    "stillness-body-oil": "exec-f7041c64-828d-4837-864c-90e832065021.png"
+  },
+  "prompts": [
+    {
+      "name": "hero",
+      "prompt": "Use case: product-mockup. Create an actual high-end photorealistic beauty campaign image for AURA, a fictional premium skincare concept. European editorial art direction, warm ivory #F8F6F2 and cream #EFEAE2, charcoal ink and sage #909B86, natural limestone, realistic soft directional afternoon light and long soft shadows. Minimal cream labels with precise readable word 'AURA' in widely spaced elegant serif capitals, tiny understated product descriptor. No medical claims, no certifications, no watermark. Wide landscape 1536x1024 campaign photograph: a beautiful sculptural arrangement of three premium AURA skincare vessels, one amber glass serum with matte black dropper, one ivory glass cream jar, one tall ivory cleanser pump, on a pale travertine plinth. A softly out of focus olive branch enters the top right, sheer sunlit curtain in background. Products occupy center and right with balanced breathing room. Warm tactile beauty still-life, exquisite authentic material detail. No UI or headlines."
+    },
+    {
+      "name": "cleanser",
+      "prompt": "Use case: product-mockup. Create an actual high-end photorealistic beauty campaign image for AURA, a fictional premium skincare concept. European editorial art direction, warm ivory #F8F6F2 and cream #EFEAE2, charcoal ink and sage #909B86, natural limestone, realistic soft directional afternoon light and long soft shadows. Minimal cream labels with precise readable word 'AURA' in widely spaced elegant serif capitals, tiny understated product descriptor. No medical claims, no certifications, no watermark. Portrait 1024x1536 catalog photograph: one tall elegant opaque ivory cylindrical AURA cleanser bottle with matte ivory pump, centered in the lower middle, entire bottle fully visible with breathing room, on a warm cream limestone surface. Tiny label text 'GENTLE CLEANSER'. One small subtle watery reflection. Background seamless ivory. Soft shadow extending to lower right. Quiet precise luxury packaging, no props covering bottle."
+    },
+    {
+      "name": "serum",
+      "prompt": "Use case: product-mockup. Create an actual high-end photorealistic beauty campaign image for AURA, a fictional premium skincare concept. European editorial art direction, warm ivory #F8F6F2 and cream #EFEAE2, charcoal ink and sage #909B86, natural limestone, realistic soft directional afternoon light and long soft shadows. Minimal cream labels with precise readable word 'AURA' in widely spaced elegant serif capitals, tiny understated product descriptor. No medical claims, no certifications, no watermark. Portrait 1024x1536 catalog photograph: one amber brown glass AURA serum bottle with cream rectangular label and matte black dropper cap, centered in lower middle, entire bottle fully visible with generous breathing room. Tiny label text 'DAILY SERUM'. Warm ivory seamless background and cream travertine tabletop. Warm directional daylight, gentle shadow extending lower right, single elegant bottle, no distracting props."
+    },
+    {
+      "name": "moisturizer",
+      "prompt": "Use case: product-mockup. Create an actual high-end photorealistic beauty campaign image for AURA, a fictional premium skincare concept. European editorial art direction, warm ivory #F8F6F2 and cream #EFEAE2, charcoal ink and sage #909B86, natural limestone, realistic soft directional afternoon light and long soft shadows. Minimal cream labels with precise readable word 'AURA' in widely spaced elegant serif capitals, tiny understated product descriptor. No medical claims, no certifications, no watermark. Portrait 1024x1536 catalog photograph: one premium short wide frosted ivory AURA face cream jar with an elegant matte sage screw lid, cream label, centered in lower middle, entire jar fully visible with generous breathing room. Tiny label text 'DAILY MOISTURE'. Warm seamless ivory backdrop and natural cream stone tabletop, exquisite realistic materials, subtle natural soft shadow extending lower right. No distracting props."
+    },
+    {
+      "name": "body",
+      "prompt": "Use case: product-mockup. Create an actual high-end photorealistic beauty campaign image for AURA, a fictional premium skincare concept. European editorial art direction, warm ivory #F8F6F2 and cream #EFEAE2, charcoal ink and sage #909B86, natural limestone, realistic soft directional afternoon light and long soft shadows. Minimal cream labels with precise readable word 'AURA' in widely spaced elegant serif capitals, tiny understated product descriptor. No medical claims, no certifications, no watermark. Portrait 1024x1536 catalog photograph: one tall premium sage green AURA body lotion bottle with matte black pump and cream rectangular label, centered in lower middle, entire bottle fully visible with generous breathing room. Tiny label text 'BODY LOTION'. Warm seamless ivory backdrop, cream natural stone tabletop. A fold of neutral raw linen at the very bottom edge. Exquisite realistic texture and gentle natural shadow extending lower right."
+    },
+    {
+      "name": "soft-foam-cleanser",
+      "ref": "cleanser",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a tall frosted ivory bottle with a subtly wider foaming pump, label 'SOFT FOAM CLEANSER'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "evening-cleansing-oil",
+      "ref": "cleanser",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a warm amber glass bottle with a black pump and cream label, label 'EVENING CLEANSING OIL'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "quiet-night-serum",
+      "ref": "serum",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a dark amber glass dropper bottle with matte charcoal cap and cream label, label 'QUIET NIGHT SERUM'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "dew-drop-serum",
+      "ref": "serum",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a frosted translucent pale sage glass serum bottle with an ivory dropper and cream label, label 'DEW DROP SERUM'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "velvet-night-cream",
+      "ref": "moisturizer",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a premium short wide warm taupe glass jar with a dark charcoal screw lid and subtle cream label, label 'VELVET NIGHT CREAM'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "cloud-light-moisturizer",
+      "ref": "moisturizer",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a premium short wide frosted translucent white jar with an ivory screw lid and cream label, label 'CLOUD LIGHT MOISTURIZER'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "linen-hand-cream",
+      "ref": "body",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a sophisticated ivory aluminum hand cream tube standing cap-down on its small sage cap, elegant thin charcoal typography, label 'LINEN HAND CREAM'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    },
+    {
+      "name": "stillness-body-oil",
+      "ref": "body",
+      "prompt": "Use case: product-mockup. Create one standalone portrait 1024x1536 premium skincare catalog photograph for fictional AURA brand. Use the attached image only as art-direction reference. Match the reference's ivory background, travertine tabletop, warm soft daylight, realistic shadows, generous negative space and camera angle. Main subject: a tall graceful amber glass body oil bottle with a matte ivory dispensing cap and warm cream label, label 'STILLNESS BODY OIL'. The brand 'AURA' is elegantly letterspaced in serif capitals above the product name. Entire product visible, product sits in the lower middle of the composition, consistent scale with reference. Exquisite believable packaging, precise readable text. Only this one product, no watermarks, no certifications, no medical claims. Do not reproduce the reference product unchanged."
+    }
+  ]
+}

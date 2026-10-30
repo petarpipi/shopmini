@@ -1,0 +1,57 @@
+{
+  "builtOn": "2026-10-26",
+  "mainJavaScript": {
+    "file": "index-CffqIeEV.js",
+    "bytes": 299682,
+    "gzipBytes": 95719
+  },
+  "routeChunks": [
+    {
+      "file": "Checkout-CMwTKwjA.js",
+      "bytes": 9022,
+      "gzipBytes": 3279
+    },
+    {
+      "file": "Product-CdG2PkHP.js",
+      "bytes": 6393,
+      "gzipBytes": 2597
+    },
+    {
+      "file": "Shop-C-BhDOsr.js",
+      "bytes": 4386,
+      "gzipBytes": 1750
+    },
+    {
+      "file": "About-Df_vDrlx.js",
+      "bytes": 4058,
+      "gzipBytes": 1692
+    },
+    {
+      "file": "Contact-fPf9BROs.js",
+      "bytes": 3646,
+      "gzipBytes": 1663
+    },
+    {
+      "file": "OrderSummary-BSrg0i8W.js",
+      "bytes": 2458,
+      "gzipBytes": 1056
+    },
+    {
+      "file": "Cart-ojZkrJ6x.js",
+      "bytes": 2318,
+      "gzipBytes": 1050
+    },
+    {
+      "file": "Wishlist-B8WwHqlk.js",
+      "bytes": 812,
+      "gzipBytes": 498
+    }
+  ],
+  "stylesheet": {
+    "file": "index-ffRTux5e.css",
+    "bytes": 54041,
+    "gzipBytes": 11723
+  },
+  "routeSplitting": true,
+  "localImageFiles": 26
+}
